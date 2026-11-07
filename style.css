@@ -148,7 +148,6 @@ body {
   font-size: 0.75rem;
 }
 
-/* Hero Section */
 .hero-section {
   position: relative;
   height: 85vh;
@@ -190,7 +189,6 @@ body {
   letter-spacing: 1px;
 }
 
-/* About Section with Video Media Container */
 .about-section {
   display: flex;
   width: 100%;
@@ -244,7 +242,6 @@ body {
   margin-top: 10px;
 }
 
-/* Classes Section */
 .classes-section {
   background-color: #161616;
   padding: 80px 40px;
