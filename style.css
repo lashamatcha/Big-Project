@@ -4,14 +4,15 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
   scroll-behavior: auto;
 }
 
 body {
-  font-family: 'Arial Black', Impact, sans-serif;
+  font-family: "Arial Black", Impact, sans-serif;
   background-color: #121212;
   color: #ffffff;
   line-height: 1.4;
@@ -104,7 +105,7 @@ body {
   transition: color 0.2s;
 }
 
-.nav-links li a.active, 
+.nav-links li a.active,
 .nav-links li a:hover {
   color: #ffffff;
   border-bottom: 2px solid #ffffff;
@@ -126,7 +127,7 @@ body {
   font-weight: bold;
 }
 
-.login-link, 
+.login-link,
 .cart-link {
   text-decoration: none;
   color: #f15a31;
@@ -151,7 +152,9 @@ body {
 .hero-section {
   position: relative;
   height: 85vh;
-  background: #121212 url(./Photos/untitled_Gemini\ 3\ \(Nano\ Banana\ Pro\)15.avif) center/cover no-repeat;
+  background: #121212
+    url(./Photos/untitled_Gemini\ 3\ \(Nano\ Banana\ Pro\)15.avif) center/cover
+    no-repeat;
   display: flex;
   align-items: center;
   padding: 0 80px;
@@ -163,7 +166,12 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, rgba(10,10,18,0.95) 0%, rgba(10,10,18,0.4) 60%, rgba(10,10,18,0.1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(10, 10, 18, 0.95) 0%,
+    rgba(10, 10, 18, 0.4) 60%,
+    rgba(10, 10, 18, 0.1) 100%
+  );
   z-index: 1;
 }
 
@@ -283,7 +291,9 @@ body {
   height: 100%;
   object-fit: cover;
   filter: grayscale(100%);
-  transition: transform 0.3s ease, filter 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    filter 0.3s ease;
 }
 
 .class-card:hover .card-img-wrapper img {
@@ -374,7 +384,8 @@ body {
 .mobile-app-section {
   position: relative;
   height: 80vh;
-  background: url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+  background: url("https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1600&q=80")
+    center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -472,7 +483,7 @@ body {
 }
 
 .footer-logo {
-  font-family: 'Arial Black', Impact, sans-serif;
+  font-family: "Arial Black", Impact, sans-serif;
   font-size: 4.5rem;
   color: #f15a31;
   line-height: 1;
@@ -500,7 +511,7 @@ body {
 }
 
 .footer-col h3 {
-  font-family: 'Arial Black', Impact, sans-serif;
+  font-family: "Arial Black", Impact, sans-serif;
   font-size: 1rem;
   letter-spacing: 1px;
   margin-bottom: 20px;
@@ -573,12 +584,15 @@ body {
     flex-wrap: wrap;
     gap: 15px;
   }
-  
-  .hero-title, .transform-banner h2 {
+
+  .hero-title,
+  .transform-banner h2 {
     font-size: 2.5rem;
   }
 
-  .about-section, .feature-row, .feature-row.reverse {
+  .about-section,
+  .feature-row,
+  .feature-row.reverse {
     flex-direction: column;
   }
 
