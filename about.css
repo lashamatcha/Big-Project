@@ -4,17 +4,28 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
   scroll-behavior: auto;
 }
 
 body {
-  font-family: 'Arial Black', Impact, sans-serif;
+  font-family: "Arial Black", Impact, sans-serif;
   background-color: #121212;
   color: #ffffff;
   line-height: 1.4;
+}
+
+.logo a {
+  display: block;
+}
+
+.brand-logo {
+  height: 38px;
+  width: auto;
+  display: block;
 }
 
 .floating-btn {
@@ -99,7 +110,7 @@ body {
   transition: color 0.2s;
 }
 
-.nav-links li a.active, 
+.nav-links li a.active,
 .nav-links li a:hover {
   color: #ffffff;
   border-bottom: 2px solid #ffffff;
@@ -121,7 +132,7 @@ body {
   font-weight: bold;
 }
 
-.login-link, 
+.login-link,
 .cart-link {
   text-decoration: none;
   color: #f15a31;
@@ -142,11 +153,21 @@ body {
   padding: 1px 6px;
   font-size: 0.75rem;
 }
-
 .about-hero-banner {
   position: relative;
   height: 45vh;
-  background: url('https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
 }
 
 .banner-overlay {
@@ -155,7 +176,8 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(10, 10, 10, 0.85);
+  background-color: rgba(10, 10, 10, 0.5);
+  z-index: 2;
 }
 
 .about-section {
@@ -163,6 +185,8 @@ body {
   min-height: 80vh;
   background-color: #f3f3ef;
   color: #121212;
+  position: relative;
+  z-index: 3;
 }
 
 .about-text-container {
@@ -235,7 +259,7 @@ body {
 }
 
 .footer-logo {
-  font-family: 'Arial Black', Impact, sans-serif;
+  font-family: "Arial Black", Impact, sans-serif;
   font-size: 4.5rem;
   color: #f15a31;
   line-height: 1;
@@ -263,7 +287,7 @@ body {
 }
 
 .footer-col h3 {
-  font-family: 'Arial Black', Impact, sans-serif;
+  font-family: "Arial Black", Impact, sans-serif;
   font-size: 1rem;
   letter-spacing: 1px;
   margin-bottom: 20px;
